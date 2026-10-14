@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ruta PRISMA · Proyecto final</title>
+<style>
+:root{--ink:#0B1020;--muted:#5B6373;--bg:#ffffff;--soft:#F6F7FB;--line:#E3E6EE;--accent:#5B4BDB;--teal:#0D9488;--gold:#FFC629}
+@media (prefers-color-scheme:dark){:root{--ink:#EEF0F6;--muted:#A6ADBD;--bg:#0B1020;--soft:#141A2E;--line:#262E47;--accent:#9A90FF;--teal:#2DD4BF}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:Calibri,"Segoe UI",system-ui,sans-serif;line-height:1.55}
+header{background:#0B1020;color:#fff;padding:48px 20px 40px}
+.wrap{max-width:1040px;margin:0 auto;padding:0 20px}
+header .wrap{padding:0}
+.kicker{color:var(--gold);font-weight:700;font-size:.8rem;letter-spacing:.08em;text-transform:uppercase}
+h1{font-family:Georgia,"Times New Roman",serif;font-weight:500;font-size:clamp(2rem,5vw,3rem);margin:.3em 0 .2em}
+.lead{color:#C9CEDB;max-width:46em;margin:0}
+.authors{margin-top:18px;font-weight:700}
+.authors span{display:block;font-weight:400;color:#C9CEDB;font-size:.95rem}
+.notice{margin-top:16px;color:var(--gold);font-size:.9rem}
+main{padding:36px 0 56px}
+h2{font-family:Georgia,serif;font-weight:500;font-size:1.6rem;margin:0 0 6px}
+.lang{display:grid;gap:28px}
+.card{background:var(--soft);border:1px solid var(--line);border-radius:12px;padding:20px}
+.card h2 small{font-family:Calibri,sans-serif;color:var(--muted);font-size:.9rem;font-weight:400;margin-left:8px}
+video{width:100%;aspect-ratio:16/9;background:#000;border-radius:8px;display:block;margin-top:10px}
+.links{display:flex;flex-wrap:wrap;gap:10px;margin-top:28px}
+.links a{display:inline-block;padding:10px 14px;border:1px solid var(--line);border-radius:8px;color:var(--ink);text-decoration:none;background:var(--soft)}
+.links a:hover{border-color:var(--accent)}
+footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padding:18px 0 32px}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <div class="kicker">Proyecto final · Vibe Coding CEDIA 2026 · Guía 10</div>
+  <h1>Ruta PRISMA</h1>
+  <p class="lead">Revisiones sistemáticas PRISMA 2020, paso a paso, para posgrado. · <em>PRISMA 2020 systematic reviews, step by step, for graduate work.</em></p>
+  <div class="authors">Daniela Fernández · José Romero
+    <span>Universidad UTE, Medicina Veterinaria · UTPL, Educación · VC-2026-012 · VC-2026-027</span></div>
+  <p class="notice">Narración generada con voz de IA (ElevenLabs) y revisada por los autores. · Narration generated with an AI voice (ElevenLabs) and reviewed by the authors.</p>
+</div></header>
+<main><div class="wrap">
+  <div class="lang">
+    <section class="card" aria-labelledby="es">
+      <h2 id="es">Video en español <small>4:47</small></h2>
+      <video controls preload="metadata" src="VC-2026-012-027_ProyectoFinal_ES.mp4"></video>
+    </section>
+    <section class="card" aria-labelledby="en">
+      <h2 id="en">Video in English <small>4:37</small></h2>
+      <video controls preload="metadata" src="VC-2026-012-027_ProyectoFinal_EN.mp4" lang="en"></video>
+    </section>
+  </div>
+  <nav class="links" aria-label="Archivos">
+    <a href="VC-2026-012-027_ProyectoFinal_ES.pptx">Presentación (ES, .pptx)</a>
+    <a href="VC-2026-012-027_ProyectoFinal_EN.pptx">Presentation (EN, .pptx)</a>
+    <a href="VC-2026-012-027_NotaMetodologica.docx">Nota metodológica (.docx)</a>
+    <a href="https://joesystemas.github.io/ruta-prisma/">Abrir la herramienta · Open the tool</a>
+  </nav>
+</div></main>
+<footer><div class="wrap">Curso Vibe Coding CEDIA 2026 · Universidad UTE · UTPL · Uso educativo. Las capturas usan datos sintéticos.</div></footer>
+</body>
+</html>
